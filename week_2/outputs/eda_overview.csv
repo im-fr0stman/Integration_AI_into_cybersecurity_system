@@ -1,0 +1,5 @@
+domain,files,median_sample_rows,avg_ncols,mean_null_pct
+IoT,7,10000.0,6.43,0.0
+Linux,6,10000.0,13.0,0.0
+Network,13,10000.0,46.08,0.0
+Windows,2,10000.0,131.0,0.0

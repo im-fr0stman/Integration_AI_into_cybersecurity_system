@@ -1,0 +1,23 @@
+{
+  "coverage_threshold": 80.0,
+  "random_seed": 42,
+  "max_sample_rows": 10000,
+  "targets": {
+    "candidate_targets": [
+      "label",
+      "type"
+    ]
+  },
+  "drop_patterns": [
+    "^ts$",
+    "^date$",
+    "^time$",
+    "^timestamp$",
+    "(^|_)id$",
+    ".*ip$",
+    ".*uri$",
+    ".*user[_-]?agent.*",
+    "^dns_.*"
+  ],
+  "features_common_path": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_3/outputs/features_common.csv"
+}

@@ -1,0 +1,322 @@
+domain,column,files_with_column,total_files_in_domain,pct_coverage,modal_dtype
+IoT,date,7,7,100.0,object
+IoT,label,7,7,100.0,int64
+IoT,time,7,7,100.0,object
+IoT,type,7,7,100.0,object
+IoT,FC1_Read_Input_Register,1,7,14.29,int64
+IoT,FC2_Read_Discrete_Value,1,7,14.29,int64
+IoT,FC3_Read_Holding_Register,1,7,14.29,int64
+IoT,FC4_Read_Coil,1,7,14.29,int64
+IoT,current_temperature,1,7,14.29,float64
+IoT,door_state,1,7,14.29,object
+IoT,fridge_temperature,1,7,14.29,float64
+IoT,humidity,1,7,14.29,float64
+IoT,latitude,1,7,14.29,float64
+IoT,light_status,1,7,14.29,object
+IoT,longitude,1,7,14.29,float64
+IoT,motion_status,1,7,14.29,int64
+IoT,pressure,1,7,14.29,float64
+IoT,sphone_signal,1,7,14.29,object
+IoT,temp_condition,1,7,14.29,object
+IoT,temperature,1,7,14.29,float64
+IoT,thermostat_status,1,7,14.29,int64
+Linux,CMD,6,6,100.0,object
+Linux,PID,6,6,100.0,int64
+Linux,label,6,6,100.0,int64
+Linux,ts,6,6,100.0,int64
+Linux,type,6,6,100.0,object
+Linux,CPU,2,6,33.33,float64
+Linux,CPUNR,2,6,33.33,int64
+Linux,DSK,2,6,33.33,float64
+Linux,EXC,2,6,33.33,int64
+Linux,MAJFLT,2,6,33.33,int64
+Linux,MEM,2,6,33.33,float64
+Linux,MINFLT,2,6,33.33,int64
+Linux,NICE,2,6,33.33,int64
+Linux,POLI,2,6,33.33,object
+Linux,PRI,2,6,33.33,int64
+Linux,RDDSK,2,6,33.33,float64
+Linux,RGROW,2,6,33.33,float64
+Linux,RSIZE,2,6,33.33,float64
+Linux,RTPR,2,6,33.33,int64
+Linux,State,2,6,33.33,object
+Linux,Status,2,6,33.33,object
+Linux,TRUN,2,6,33.33,int64
+Linux,TSLPI,2,6,33.33,int64
+Linux,TSLPU,2,6,33.33,int64
+Linux,VGROW,2,6,33.33,float64
+Linux,VSIZE,2,6,33.33,float64
+Linux,VSTEXT,2,6,33.33,int64
+Linux,WCANCL,2,6,33.33,int64
+Linux,WRDSK,2,6,33.33,int64
+Network,conn_state,13,13,100.0,object
+Network,dns_AA,13,13,100.0,object
+Network,dns_RA,13,13,100.0,object
+Network,dns_RD,13,13,100.0,object
+Network,dns_qclass,13,13,100.0,int64
+Network,dns_qtype,13,13,100.0,int64
+Network,dns_query,13,13,100.0,object
+Network,dns_rcode,13,13,100.0,int64
+Network,dns_rejected,13,13,100.0,object
+Network,dst_bytes,13,13,100.0,int64
+Network,dst_ip,13,13,100.0,object
+Network,dst_ip_bytes,13,13,100.0,int64
+Network,dst_pkts,13,13,100.0,int64
+Network,dst_port,13,13,100.0,int64
+Network,duration,13,13,100.0,float64
+Network,http_method,13,13,100.0,object
+Network,http_orig_mime_types,13,13,100.0,object
+Network,http_referrer,13,13,100.0,object
+Network,http_request_body_len,13,13,100.0,int64
+Network,http_resp_mime_types,13,13,100.0,object
+Network,http_response_body_len,13,13,100.0,int64
+Network,http_status_code,13,13,100.0,int64
+Network,http_trans_depth,13,13,100.0,object
+Network,http_uri,13,13,100.0,object
+Network,http_user_agent,13,13,100.0,object
+Network,http_version,13,13,100.0,object
+Network,label,13,13,100.0,int64
+Network,missed_bytes,13,13,100.0,int64
+Network,proto,13,13,100.0,object
+Network,service,13,13,100.0,object
+Network,src_bytes,13,13,100.0,int64
+Network,src_ip,13,13,100.0,object
+Network,src_ip_bytes,13,13,100.0,int64
+Network,src_pkts,13,13,100.0,int64
+Network,src_port,13,13,100.0,int64
+Network,ssl_cipher,13,13,100.0,object
+Network,ssl_established,13,13,100.0,object
+Network,ssl_issuer,13,13,100.0,object
+Network,ssl_resumed,13,13,100.0,object
+Network,ssl_subject,13,13,100.0,object
+Network,ssl_version,13,13,100.0,object
+Network,ts,13,13,100.0,int64
+Network,type,13,13,100.0,object
+Network,weird_addl,13,13,100.0,object
+Network,weird_name,13,13,100.0,object
+Network,weird_notice,13,13,100.0,object
+Network,uid,1,13,7.69,object
+Windows,Memory Available Bytes,2,2,100.0,int64
+Windows,Memory Available KBytes,2,2,100.0,int64
+Windows,Memory Available MBytes,2,2,100.0,int64
+Windows,Memory Cache Bytes,2,2,100.0,int64
+Windows,Memory Cache Bytes Peak,2,2,100.0,int64
+Windows,Memory Cache Faults sec,2,2,100.0,object
+Windows,Memory Commit Limit,2,2,100.0,int64
+Windows,Memory Committed Bytes,2,2,100.0,int64
+Windows,Memory Demand Zero Faults sec,2,2,100.0,object
+Windows,Memory Free & Zero Page List Bytes,2,2,100.0,int64
+Windows,Memory Free System Page Table Entries,2,2,100.0,int64
+Windows,Memory Modified Page List Bytes,2,2,100.0,int64
+Windows,Memory Page Faults sec,2,2,100.0,object
+Windows,Memory Page Reads sec,2,2,100.0,object
+Windows,Memory Page Writes sec,2,2,100.0,object
+Windows,Memory Pages Input sec,2,2,100.0,object
+Windows,Memory Pages Output sec,2,2,100.0,object
+Windows,Memory Pages sec,2,2,100.0,object
+Windows,Memory Pool Nonpaged Allocs,2,2,100.0,int64
+Windows,Memory Pool Nonpaged Bytes,2,2,100.0,int64
+Windows,Memory Pool Paged Allocs,2,2,100.0,int64
+Windows,Memory Pool Paged Bytes,2,2,100.0,int64
+Windows,Memory Pool Paged Resident Bytes,2,2,100.0,int64
+Windows,Memory Standby Cache Core Bytes,2,2,100.0,int64
+Windows,Memory Standby Cache Normal Priority Bytes,2,2,100.0,int64
+Windows,Memory Standby Cache Reserve Bytes,2,2,100.0,int64
+Windows,Memory System Cache Resident Bytes,2,2,100.0,int64
+Windows,Memory System Code Resident Bytes,2,2,100.0,int64
+Windows,Memory System Code Total Bytes,2,2,100.0,int64
+Windows,Memory System Driver Resident Bytes,2,2,100.0,float64
+Windows,Memory System Driver Total Bytes,2,2,100.0,int64
+Windows,Memory Transition Faults sec,2,2,100.0,object
+Windows,Memory Transition Pages RePurposed sec,2,2,100.0,object
+Windows,Memory Write Copies sec,2,2,100.0,object
+Windows,Memory pct_ Committed Bytes In Use,2,2,100.0,float64
+Windows,label,2,2,100.0,int64
+Windows,ts,2,2,100.0,int64
+Windows,type,2,2,100.0,object
+Windows,LogicalDisk(_Total) Avg  Disk Bytes Read,1,2,50.0,object
+Windows,LogicalDisk(_Total) Avg  Disk Bytes Transfer,1,2,50.0,object
+Windows,LogicalDisk(_Total) Avg  Disk Bytes Write,1,2,50.0,object
+Windows,LogicalDisk(_Total) Avg  Disk Queue Length,1,2,50.0,object
+Windows,LogicalDisk(_Total) Avg  Disk Read Queue Length,1,2,50.0,object
+Windows,LogicalDisk(_Total) Avg  Disk Write Queue Length,1,2,50.0,object
+Windows,LogicalDisk(_Total) Avg  Disk sec Read,1,2,50.0,object
+Windows,LogicalDisk(_Total) Avg  Disk sec Transfer,1,2,50.0,object
+Windows,LogicalDisk(_Total) Avg  Disk sec Write,1,2,50.0,object
+Windows,LogicalDisk(_Total) Current Disk Queue Length,1,2,50.0,int64
+Windows,LogicalDisk(_Total) Disk Bytes sec,1,2,50.0,object
+Windows,LogicalDisk(_Total) Disk Read Bytes sec,1,2,50.0,object
+Windows,LogicalDisk(_Total) Disk Reads sec,1,2,50.0,object
+Windows,LogicalDisk(_Total) Disk Transfers sec,1,2,50.0,object
+Windows,LogicalDisk(_Total) Disk Write Bytes sec,1,2,50.0,object
+Windows,LogicalDisk(_Total) Disk Writes sec,1,2,50.0,object
+Windows,LogicalDisk(_Total) Free Megabytes,1,2,50.0,int64
+Windows,LogicalDisk(_Total) Split IO Sec,1,2,50.0,object
+Windows,LogicalDisk(_Total) pct_ Disk Read Time,1,2,50.0,object
+Windows,LogicalDisk(_Total) pct_ Disk Time,1,2,50.0,object
+Windows,LogicalDisk(_Total) pct_ Disk Write Time,1,2,50.0,object
+Windows,LogicalDisk(_Total) pct_ Free Space,1,2,50.0,float64
+Windows,LogicalDisk(_Total) pct_ Idle Time,1,2,50.0,object
+Windows,Memory Long-Term Average Standby Cache Lifetime (s),1,2,50.0,int64
+Windows,Network_I(6TO4 Adapter) Bytes Received sec,1,2,50.0,object
+Windows,Network_I(6TO4 Adapter) Bytes Sent sec,1,2,50.0,object
+Windows,Network_I(6TO4 Adapter) Bytes Total sec,1,2,50.0,object
+Windows,Network_I(6TO4 Adapter) Current Bandwidth,1,2,50.0,int64
+Windows,Network_I(6TO4 Adapter) Offloaded Connections,1,2,50.0,int64
+Windows,Network_I(6TO4 Adapter) Output Queue Length,1,2,50.0,int64
+Windows,Network_I(6TO4 Adapter) Packets Outbound Discarded,1,2,50.0,int64
+Windows,Network_I(6TO4 Adapter) Packets Outbound Errors,1,2,50.0,int64
+Windows,Network_I(6TO4 Adapter) Packets Received Discarded,1,2,50.0,int64
+Windows,Network_I(6TO4 Adapter) Packets Received Errors,1,2,50.0,int64
+Windows,Network_I(6TO4 Adapter) Packets Received Non-Unicast sec,1,2,50.0,object
+Windows,Network_I(6TO4 Adapter) Packets Received Unicast sec,1,2,50.0,object
+Windows,Network_I(6TO4 Adapter) Packets Received Unknown,1,2,50.0,int64
+Windows,Network_I(6TO4 Adapter) Packets Received sec,1,2,50.0,object
+Windows,Network_I(6TO4 Adapter) Packets Sent Non-Unicast sec,1,2,50.0,object
+Windows,Network_I(6TO4 Adapter) Packets Sent Unicast sec,1,2,50.0,object
+Windows,Network_I(6TO4 Adapter) Packets Sent sec,1,2,50.0,object
+Windows,Network_I(6TO4 Adapter) Packets sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC) Bytes Received sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC) Bytes Sent sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC) Bytes Total sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC) Current Bandwidth,1,2,50.0,int64
+Windows,Network_I(Intel R _82574L_GNC) Offloaded Connections,1,2,50.0,int64
+Windows,Network_I(Intel R _82574L_GNC) Output Queue Length,1,2,50.0,int64
+Windows,Network_I(Intel R _82574L_GNC) Packets Outbound Discarded,1,2,50.0,int64
+Windows,Network_I(Intel R _82574L_GNC) Packets Outbound Errors,1,2,50.0,int64
+Windows,Network_I(Intel R _82574L_GNC) Packets Received Discarded,1,2,50.0,int64
+Windows,Network_I(Intel R _82574L_GNC) Packets Received Errors,1,2,50.0,int64
+Windows,Network_I(Intel R _82574L_GNC) Packets Received Non-Unicast sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC) Packets Received Unicast sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC) Packets Received Unknown,1,2,50.0,int64
+Windows,Network_I(Intel R _82574L_GNC) Packets Received sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC) Packets Sent Non-Unicast sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC) Packets Sent Unicast sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC) Packets Sent sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC) Packets sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC) TCP Active RSC Connections,1,2,50.0,int64
+Windows,Network_I(Intel R _82574L_GNC) TCP RSC Coalesced Packets sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC) TCP RSC Exceptions sec,1,2,50.0,object
+Windows,Network_I(Intel R _82574L_GNC)TCP_APS,1,2,50.0,int64
+Windows,Network_I(Intel R _Pro_1000MT) Bytes Received sec,1,2,50.0,object
+Windows,Network_I(Intel R _Pro_1000MT) Bytes Sent sec,1,2,50.0,object
+Windows,Network_I(Intel R _Pro_1000MT) Bytes Total sec,1,2,50.0,object
+Windows,Network_I(Intel R _Pro_1000MT) Current Bandwidth,1,2,50.0,int64
+Windows,Network_I(Intel R _Pro_1000MT) Offloaded Connections,1,2,50.0,int64
+Windows,Network_I(Intel R _Pro_1000MT) Output Queue Length,1,2,50.0,int64
+Windows,Network_I(Intel R _Pro_1000MT) Packets Outbound Discarded,1,2,50.0,int64
+Windows,Network_I(Intel R _Pro_1000MT) Packets Outbound Errors,1,2,50.0,int64
+Windows,Network_I(Intel R _Pro_1000MT) Packets Received Discarded,1,2,50.0,int64
+Windows,Network_I(Intel R _Pro_1000MT) Packets Received Errors,1,2,50.0,int64
+Windows,Network_I(Intel R _Pro_1000MT) Packets Received Non-Unicast sec,1,2,50.0,object
+Windows,Network_I(Intel R _Pro_1000MT) Packets Received Unicast sec,1,2,50.0,object
+Windows,Network_I(Intel R _Pro_1000MT) Packets Received Unknown,1,2,50.0,int64
+Windows,Network_I(Intel R _Pro_1000MT) Packets Received sec,1,2,50.0,object
+Windows,Network_I(Intel R _Pro_1000MT) Packets Sent Non-Unicast sec,1,2,50.0,object
+Windows,Network_I(Intel R _Pro_1000MT) Packets Sent Unicast sec,1,2,50.0,object
+Windows,Network_I(Intel R _Pro_1000MT) Packets Sent sec,1,2,50.0,object
+Windows,Network_I(Intel R _Pro_1000MT) Packets sec,1,2,50.0,object
+Windows,Network_I(isatap{B4D100D3-}) Bytes Received sec,1,2,50.0,object
+Windows,Network_I(isatap{B4D100D3-}) Bytes Sent sec,1,2,50.0,object
+Windows,Network_I(isatap{B4D100D3-}) Bytes Total sec,1,2,50.0,object
+Windows,Network_I(isatap{B4D100D3-}) Current Bandwidth,1,2,50.0,int64
+Windows,Network_I(isatap{B4D100D3-}) Offloaded Connections,1,2,50.0,int64
+Windows,Network_I(isatap{B4D100D3-}) Output Queue Length,1,2,50.0,int64
+Windows,Network_I(isatap{B4D100D3-}) Packets Outbound Discarded,1,2,50.0,int64
+Windows,Network_I(isatap{B4D100D3-}) Packets Outbound Errors,1,2,50.0,int64
+Windows,Network_I(isatap{B4D100D3-}) Packets Received Discarded,1,2,50.0,int64
+Windows,Network_I(isatap{B4D100D3-}) Packets Received Errors,1,2,50.0,int64
+Windows,Network_I(isatap{B4D100D3-}) Packets Received Non-Unicast sec,1,2,50.0,object
+Windows,Network_I(isatap{B4D100D3-}) Packets Received Unicast sec,1,2,50.0,object
+Windows,Network_I(isatap{B4D100D3-}) Packets Received Unknown,1,2,50.0,int64
+Windows,Network_I(isatap{B4D100D3-}) Packets Received sec,1,2,50.0,object
+Windows,Network_I(isatap{B4D100D3-}) Packets Sent Non-Unicast sec,1,2,50.0,object
+Windows,Network_I(isatap{B4D100D3-}) Packets Sent Unicast sec,1,2,50.0,object
+Windows,Network_I(isatap{B4D100D3-}) Packets Sent sec,1,2,50.0,object
+Windows,Network_I(isatap{B4D100D3-}) Packets sec,1,2,50.0,object
+Windows,Process(_Total) Creating Process ID,1,2,50.0,int64
+Windows,Process(_Total) Elapsed Time,1,2,50.0,int64
+Windows,Process(_Total) Handle Count,1,2,50.0,int64
+Windows,Process(_Total) ID Process,1,2,50.0,int64
+Windows,Process(_Total) IO Data Bytes sec,1,2,50.0,object
+Windows,Process(_Total) IO Data Operations sec,1,2,50.0,object
+Windows,Process(_Total) IO Other Bytes sec,1,2,50.0,object
+Windows,Process(_Total) IO Other Operations sec,1,2,50.0,object
+Windows,Process(_Total) IO Read Bytes sec,1,2,50.0,object
+Windows,Process(_Total) IO Read Operations sec,1,2,50.0,object
+Windows,Process(_Total) IO Write Bytes sec,1,2,50.0,object
+Windows,Process(_Total) IO Write Operations sec,1,2,50.0,object
+Windows,Process(_Total) Page Faults sec,1,2,50.0,object
+Windows,Process(_Total) Page File Bytes,1,2,50.0,int64
+Windows,Process(_Total) Page File Bytes Peak,1,2,50.0,int64
+Windows,Process(_Total) Pool Nonpaged Bytes,1,2,50.0,int64
+Windows,Process(_Total) Pool Paged Bytes,1,2,50.0,int64
+Windows,Process(_Total) Priority Base,1,2,50.0,int64
+Windows,Process(_Total) Private Bytes,1,2,50.0,int64
+Windows,Process(_Total) Thread Count,1,2,50.0,int64
+Windows,Process(_Total) Virtual Bytes,1,2,50.0,int64
+Windows,Process(_Total) Virtual Bytes Peak,1,2,50.0,int64
+Windows,Process(_Total) Working Set,1,2,50.0,int64
+Windows,Process(_Total) Working Set - Private,1,2,50.0,int64
+Windows,Process(_Total) Working Set Peak,1,2,50.0,int64
+Windows,Process(_Total) pct_ Privileged Time,1,2,50.0,object
+Windows,Process(_Total) pct_ Processor Time,1,2,50.0,object
+Windows,Process(_Total) pct_ User Time,1,2,50.0,object
+Windows,Process_Creating Process ID,1,2,50.0,int64
+Windows,Process_Elapsed_Time,1,2,50.0,int64
+Windows,Process_Handle Count,1,2,50.0,int64
+Windows,Process_ID Process,1,2,50.0,int64
+Windows,Process_IO Data Bytes_sec,1,2,50.0,object
+Windows,Process_IO Data Operations_sec,1,2,50.0,object
+Windows,Process_IO Other Operations_sec,1,2,50.0,object
+Windows,Process_IO Read Bytes_sec,1,2,50.0,object
+Windows,Process_IO Read_Operations_sec,1,2,50.0,object
+Windows,Process_IO_Other_Bytes_sec,1,2,50.0,object
+Windows,Process_IO_Write Operations_sec,1,2,50.0,object
+Windows,Process_IO_Write_Bytes_sec,1,2,50.0,object
+Windows,Process_Page Faults_sec,1,2,50.0,object
+Windows,Process_Page_File Bytes,1,2,50.0,int64
+Windows,Process_Page_File Bytes Peak,1,2,50.0,int64
+Windows,Process_Pool Nonpaged Bytes,1,2,50.0,int64
+Windows,Process_Pool_Paged Bytes,1,2,50.0,int64
+Windows,Process_Priority Base,1,2,50.0,int64
+Windows,Process_Private_Bytes,1,2,50.0,int64
+Windows,Process_Thread Count,1,2,50.0,int64
+Windows,Process_Virtual_Bytes,1,2,50.0,float64
+Windows,Process_Virtual_Bytes Peak,1,2,50.0,float64
+Windows,Process_Working Set,1,2,50.0,int64
+Windows,Process_Working_Set_ Private,1,2,50.0,int64
+Windows,Process_Working_Set_Peak,1,2,50.0,int64
+Windows,Process_pct_ Privileged_Time,1,2,50.0,object
+Windows,Process_pct_ Processor_Time,1,2,50.0,object
+Windows,Process_pct_ User_Time,1,2,50.0,object
+Windows,Processor(_Total) C1 Transitions sec,1,2,50.0,object
+Windows,Processor(_Total) C2 Transitions sec,1,2,50.0,object
+Windows,Processor(_Total) C3 Transitions sec,1,2,50.0,object
+Windows,Processor(_Total) DPC Rate,1,2,50.0,int64
+Windows,Processor(_Total) DPCs Queued sec,1,2,50.0,object
+Windows,Processor(_Total) Interrupts sec,1,2,50.0,object
+Windows,Processor(_Total) pct_ C1 Time,1,2,50.0,object
+Windows,Processor(_Total) pct_ C2 Time,1,2,50.0,object
+Windows,Processor(_Total) pct_ C3 Time,1,2,50.0,object
+Windows,Processor(_Total) pct_ DPC Time,1,2,50.0,object
+Windows,Processor(_Total) pct_ Idle Time,1,2,50.0,object
+Windows,Processor(_Total) pct_ Interrupt Time,1,2,50.0,object
+Windows,Processor(_Total) pct_ Privileged Time,1,2,50.0,object
+Windows,Processor(_Total) pct_ Processor Time,1,2,50.0,object
+Windows,Processor(_Total) pct_ User Time,1,2,50.0,object
+Windows,Processor_C1_ransitions_sec,1,2,50.0,object
+Windows,Processor_C2_ransitions_sec,1,2,50.0,object
+Windows,Processor_C3_ransitions_sec,1,2,50.0,object
+Windows,Processor_DPC_Rate,1,2,50.0,int64
+Windows,Processor_DPCs_Queued_sec,1,2,50.0,object
+Windows,Processor_Interrupts_sec,1,2,50.0,object
+Windows,Processor_pct_ C1_Time,1,2,50.0,object
+Windows,Processor_pct_ C2_Time,1,2,50.0,object
+Windows,Processor_pct_ C3_Time,1,2,50.0,object
+Windows,Processor_pct_ DPC_Time,1,2,50.0,object
+Windows,Processor_pct_ Idle_Time,1,2,50.0,object
+Windows,Processor_pct_ Interrupt_Time,1,2,50.0,object
+Windows,Processor_pct_ Privileged_Time,1,2,50.0,object
+Windows,Processor_pct_ Processor_Time,1,2,50.0,object
+Windows,Processor_pct_ User_Time,1,2,50.0,object

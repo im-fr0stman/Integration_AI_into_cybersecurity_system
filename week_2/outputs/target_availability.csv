@@ -1,0 +1,5 @@
+domain,total_files,files_with_label_col,files_with_type_col,total_rows,label_nonnull_rows,type_nonnull_rows,label_row_coverage_pct,type_row_coverage_pct
+IoT,7,7,7,3606134,3606134,3606134,100.0,100.0
+Linux,6,6,6,5855329,5855329,5855329,100.0,100.0
+Network,13,13,13,12339021,12339021,12339021,100.0,100.0
+Windows,2,2,2,64342,64342,64342,100.0,100.0

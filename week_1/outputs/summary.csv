@@ -1,0 +1,5 @@
+domain,total_files,ok_files,error_files,files_with_target,pct_with_target,avg_ncols,median_sample_rows
+IoT,7,7,0,7,100.0,6.43,10000.0
+Linux,6,6,0,6,100.0,13.0,10000.0
+Network,13,13,0,13,100.0,46.08,10000.0
+Windows,2,2,0,2,100.0,131.0,10000.0

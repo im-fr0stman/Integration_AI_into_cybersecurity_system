@@ -1,0 +1,78 @@
+{
+  "overall_pass": false,
+  "per_domain": [
+    {
+      "domain": "IoT",
+      "has_any_rows": true,
+      "has_any_targets": true,
+      "mean_null_pct_ok": true,
+      "well_covered_columns": 4,
+      "well_covered_ok": false,
+      "details": {
+        "files": 7,
+        "total_files": 7,
+        "avg_ncols": 6.43,
+        "median_sample_rows": 10000.0,
+        "mean_null_pct": 0.0,
+        "label_row_coverage_pct": 100.0,
+        "type_row_coverage_pct": 100.0
+      }
+    },
+    {
+      "domain": "Linux",
+      "has_any_rows": true,
+      "has_any_targets": true,
+      "mean_null_pct_ok": true,
+      "well_covered_columns": 5,
+      "well_covered_ok": true,
+      "details": {
+        "files": 6,
+        "total_files": 6,
+        "avg_ncols": 13.0,
+        "median_sample_rows": 10000.0,
+        "mean_null_pct": 0.0,
+        "label_row_coverage_pct": 100.0,
+        "type_row_coverage_pct": 100.0
+      }
+    },
+    {
+      "domain": "Network",
+      "has_any_rows": true,
+      "has_any_targets": true,
+      "mean_null_pct_ok": true,
+      "well_covered_columns": 46,
+      "well_covered_ok": true,
+      "details": {
+        "files": 13,
+        "total_files": 13,
+        "avg_ncols": 46.08,
+        "median_sample_rows": 10000.0,
+        "mean_null_pct": 0.0,
+        "label_row_coverage_pct": 100.0,
+        "type_row_coverage_pct": 100.0
+      }
+    },
+    {
+      "domain": "Windows",
+      "has_any_rows": true,
+      "has_any_targets": true,
+      "mean_null_pct_ok": true,
+      "well_covered_columns": 224,
+      "well_covered_ok": true,
+      "details": {
+        "files": 2,
+        "total_files": 2,
+        "avg_ncols": 131.0,
+        "median_sample_rows": 10000.0,
+        "mean_null_pct": 0.0,
+        "label_row_coverage_pct": 100.0,
+        "type_row_coverage_pct": 100.0
+      }
+    }
+  ],
+  "thresholds": {
+    "NULL_OK_THRESHOLD": 95.0,
+    "COVERAGE_COL_PCT": 50.0,
+    "MIN_WELL_COVERED": 5
+  }
+}

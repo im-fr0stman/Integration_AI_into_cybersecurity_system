@@ -1,0 +1,21 @@
+{
+  "project_root": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project",
+  "dataset_root": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/dataset",
+  "week_2_outputs": {
+    "session_meta": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_2/outputs/session_meta.json",
+    "eda_files": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_2/outputs/eda_files.csv",
+    "eda_overview": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_2/outputs/eda_overview.csv",
+    "column_profile": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_2/outputs/column_profile.csv",
+    "dtype_summary": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_2/outputs/dtype_summary.csv",
+    "target_availability": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_2/outputs/target_availability.csv",
+    "validation_report": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_2/outputs/validation_report.json",
+    "week2_report_md": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_2/outputs/week2_report.md"
+  },
+  "week_3": {
+    "root": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_3",
+    "outputs": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_3/outputs",
+    "notebooks": "/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_3/notebooks"
+  },
+  "created_at": "2025-11-02T04:01:18Z",
+  "notes": "Week 3 initialized."
+}

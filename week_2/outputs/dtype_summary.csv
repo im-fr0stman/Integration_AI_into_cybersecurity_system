@@ -1,0 +1,13 @@
+domain,dtype,count
+IoT,object,25
+IoT,int64,13
+IoT,float64,7
+Linux,int64,46
+Linux,object,18
+Linux,float64,14
+Network,object,365
+Network,int64,221
+Network,float64,13
+Windows,object,138
+Windows,int64,118
+Windows,float64,6

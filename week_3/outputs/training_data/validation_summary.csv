@@ -1,0 +1,6 @@
+dataset,path,rows,ncols,has_label,has_type,label_nonnull,type_nonnull,missing_expected_cols,unexpected_cols
+ALL,/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_3/outputs/training_data/train_ready_ALL.parquet,21864826,3,True,True,21864826,21864826,0,0
+IoT,/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_3/outputs/training_data/train_ready_IoT.parquet,3606134,2,True,True,3606134,3606134,0,0
+Linux,/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_3/outputs/training_data/train_ready_Linux.parquet,5855329,2,True,True,5855329,5855329,0,0
+Network,/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_3/outputs/training_data/train_ready_Network.parquet,12339021,2,True,True,12339021,12339021,0,0
+Windows,/content/drive/MyDrive/Colab Notebooks/New_cyber_project/week_3/outputs/training_data/train_ready_Windows.parquet,64342,2,True,True,64342,64342,0,0
